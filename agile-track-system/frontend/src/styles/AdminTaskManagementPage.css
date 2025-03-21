@@ -1,0 +1,138 @@
+/* Admin Navigation Bar */
+nav {
+    width: 100%;
+    background: #4A4E69;
+    padding: 18px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ECF0F1; /* Light Grey */
+    transition: color 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #9A8C98; /* Soft Purple */
+}
+
+nav button {
+    background: #E74C3C;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+nav button:hover {
+    background: #C0392B;
+    transform: scale(1.05);
+}
+
+/* Admin Task Management Page Container */
+.admin-task-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 120px auto 50px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Page Title */
+.admin-task-container h1 {
+    color: #34495E;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Scrum Team Sections */
+.team-section {
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.team-section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #34495E;
+    margin-bottom: 15px;
+}
+
+/* Task List */
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list li {
+    background: #ECF0F1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Task Name */
+.task-list li strong {
+    font-size: 18px;
+    color: #2C3E50;
+}
+
+/* Dropdown for Status Update */
+.task-status-select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    transition: border 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.task-status-select:focus {
+    border: 1px solid #007bff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .admin-task-container {
+        padding: 30px;
+    }
+
+    .task-list li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .task-status-select {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
