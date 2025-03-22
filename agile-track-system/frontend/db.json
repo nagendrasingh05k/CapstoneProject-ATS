@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "User One",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user",
+      "tasks": [
+        {
+          "taskId": 1,
+          "taskName": "Task One",
+          "description": "working in dfd management",
+          "status": "To Do"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Admin One",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "tasks": []
+    },
+    {
+      "id": "3",
+      "name": "Nagendra",
+      "email": "nagendra@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "tasks": []
+    },
+    {
+      "id": "4",
+      "name": "Sameer",
+      "email": "sameer@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "tasks": []
+    },
+    {
+      "id": 5,
+      "name": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "tasks": []
+    }
+  ],
+  "scrumTeams": [
+    {
+      "id": "1",
+      "name": "Scrum Team A",
+      "tasks": [
+        {
+          "taskId": 1,
+          "taskName": "Task One",
+          "description": "Making a frontend!!",
+          "status": "Done"
+        },
+        {
+          "taskId": 2,
+          "taskName": "Task Two",
+          "description": "Working in docker",
+          "status": "Done"
+        }
+      ],
+      "users": [
+        {
+          "id": 1,
+          "name": "Employee One",
+          "email": "employee1@example.com"
+        },
+        {
+          "id": 2,
+          "name": "Employee Two",
+          "email": "employee2@example.com"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B",
+      "tasks": [
+        {
+          "taskId": 3,
+          "taskName": "Task Three",
+          "description": "Working in backend",
+          "status": "Done"
+        }
+      ],
+      "users": [
+        {
+          "id": 3,
+          "name": "Employee Three",
+          "email": "employee3@example.com"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Scrum Team C",
+      "tasks": [
+        {
+          "taskId": 4,
+          "taskName": "Development",
+          "description": "Frontend Development",
+          "status": "In Progress"
+        }
+      ],
+      "users": [
+        {
+          "id": 3,
+          "name": "Nagendra Singh",
+          "email": "nagendra.singh@example.com"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Scrum Team D",
+      "tasks": [
+        {
+          "taskId": 5,
+          "taskName": "Backend Development",
+          "description": "Backend tasks",
+          "status": "Done"
+        }
+      ],
+      "users": [
+        {
+          "id": 4,
+          "name": "Sameer",
+          "email": "sameer@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Scrum Team E",
+      "tasks": [
+        {
+          "taskName": "tester",
+          "description": "api testing",
+          "status": "In Progress"
+        }
+      ],
+      "users": [
+        {
+          "userName": "(rahul@gmail.com)",
+          "email": "(rahul@gmail.com)@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Scrum Team g",
+      "tasks": [
+        {
+          "taskName": "tester",
+          "description": "testing",
+          "status": "In Progress"
+        }
+      ],
+      "users": [
+        {
+          "userName": "(nagendra@gmail.com)",
+          "email": "(nagendra@gmail.com)@example.com"
+        }
+      ]
+    }
+  ]
+}

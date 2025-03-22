@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    background: #4A4E69;
+    padding: 24px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #d6e0f0;
+}
+
+/* Container */
+.container {
+    width: 95%;
+    max-width: 1000px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+h1 {
+    color: #222;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
+
+}
+
+h2 {
+    color: #222;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* Team List */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 20px 0;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    background: #e8f0fe;
+}
+
+/* Buttons */
+button {
+    background: #9A8C98;
+    color: #ffffff;
+    border: none;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background: #6D6875;
+    transform: scale(1.08);
+}
+
+button:active {
+    background: #5B5565;
+    transform: scale(1);
+}
